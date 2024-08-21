@@ -60,9 +60,10 @@ fun main() {
     val numbers=arrayOf(1,2,3,4,5)
     println(numbers)
     //Arrays of Strings
-    val words: Array<String >=arrayOf("Divyanshi","Tanisha","Priya")
+    val words: Array<String >
+    words=arrayOf("Divyanshi","Tanisha","Priya")
     println(words)
     //Array of squares using lambda
-    var squares=Array(5) {i -> i*i}
+    val squares=Array(5) {i -> i*i}
     println(squares)
 }
