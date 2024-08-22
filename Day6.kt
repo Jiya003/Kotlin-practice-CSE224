@@ -80,20 +80,25 @@ fun main() {
     
       
 fun main() {
-    var a = 10
+     var a = -5
+    var b=true
+    var c=10
     
     
     //Unary Operator
     
     println("Intial value of a: $a")
-    
+
+    //plus sign(positive number)
     println("Unary Plus: ${+a}")//or a.unaryPlus()
-    println("Unary Minus: $(-a)")//or a.unaryMinus()
-    println("Increment by 1: $(++a)")//a.inc()
-    println("Decrement by 1: $(--a)")//a.dec()
+    //minus sign(negative number)
+    println("Unary Minus: ${-a}")//or a.unaryMinus()
+    println("Increment by 1: ${++c}")//a.inc()
+    println("Decrement by 1: ${--c}")//a.dec()
     
     
-    //println("Not: ${!b}")//b.not()
+    println("Not: ${!b}")//b.not()
+    
     
     
     
