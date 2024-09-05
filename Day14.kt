@@ -6,7 +6,7 @@ fun Discount(amt: Int, membership:Boolean){
         println("Customer has 10% discount")
     }
     else{
-        println("Customer doesn't has 20% discount")
+        println("Customer doesn't have discount")
     }
 }
 fun main(){
